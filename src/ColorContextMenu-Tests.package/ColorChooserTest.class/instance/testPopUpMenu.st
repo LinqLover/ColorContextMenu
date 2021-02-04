@@ -10,5 +10,7 @@ testPopUpMenu
 		(self subject findByPosition: self subject center)
 			morphs detectMax: [:m | m ownerChain size]})
 				rightClick.
-	self assert: [(menu := Project current world firstSubmorph) isKindOf: MenuMorph].
+	self
+		assert: [(menu := Project current world firstSubmorph) isKindOf: MenuMorph]
+		description: ['Expected a MenuMorph but found {1}' format: {menu}].
 	menu delete.
