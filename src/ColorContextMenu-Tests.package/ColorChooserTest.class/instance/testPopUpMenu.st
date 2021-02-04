@@ -6,9 +6,9 @@ testPopUpMenu
 	(self subject findByLabel: 'Pop-up menu') in: [:button |
 		[button click] doWhileFalse: [button getModelState]].
 	
-	(MTFMorphWrapper newWith: (
+	(MTFMorphWrapper newWith: {
 		(self subject findByPosition: self subject center)
-			morphs detectMax: [:m | m ownerChain size]))
+			morphs detectMax: [:m | m ownerChain size]})
 				rightClick.
 	self assert: [(menu := Project current world firstSubmorph) isKindOf: MenuMorph].
 	menu delete.
