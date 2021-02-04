@@ -1,0 +1,28 @@
+{
+	"class" : {
+		"open" : "ct 2/4/2021 14:50" },
+	"instance" : {
+		"buildChooser:" : "ct 2/4/2021 15:41",
+		"buildFooter:" : "ct 2/4/2021 15:12",
+		"buildHeader:" : "ct 2/4/2021 15:24",
+		"buildHeaderButtons:" : "ct 2/4/2021 15:29",
+		"buildWith:" : "ct 2/4/2021 15:22",
+		"color" : "ct 2/4/2021 15:20",
+		"color:" : "ct 2/4/2021 15:37",
+		"colorText" : "ct 2/4/2021 15:20",
+		"colorText:" : "ct 2/4/2021 15:38",
+		"footerHeight" : "ct 2/4/2021 15:30",
+		"frameForContents" : "ct 2/4/2021 15:30",
+		"frameForFooter" : "ct 2/4/2021 15:30",
+		"frameForHeader" : "ct 2/4/2021 14:55",
+		"headerHeight" : "ct 2/4/2021 14:56",
+		"initialize" : "ct 2/4/2021 15:21",
+		"isMode:" : "ct 2/4/2021 15:32",
+		"isModeContinuous" : "ct 2/4/2021 15:17",
+		"isModeDiscrete" : "ct 2/4/2021 15:16",
+		"isModeExpanding" : "ct 2/4/2021 15:16",
+		"setColor:" : "ct 2/4/2021 15:41",
+		"toggleMode:" : "ct 2/4/2021 15:33",
+		"toggleModeContinuous" : "ct 2/4/2021 15:31",
+		"toggleModeDiscrete" : "ct 2/4/2021 15:31",
+		"toggleModeExpanding" : "ct 2/4/2021 15:30" } }

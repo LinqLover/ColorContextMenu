@@ -1,0 +1,14 @@
+{
+	"category" : "ColorContextMenu-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ColorChooserMorph",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

@@ -1,0 +1,15 @@
+{
+	"category" : "ColorContextMenu-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"mode",
+		"color" ],
+	"name" : "ColorChooser",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

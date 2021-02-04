@@ -1,0 +1,4 @@
+OrderedDictionary {
+	'src\/ColorContextMenu-Core.package' : #SquotCypressCodeSerializer,
+	'src\/ColorContextMenu-Tests.package' : #SquotCypressCodeSerializer
+}
