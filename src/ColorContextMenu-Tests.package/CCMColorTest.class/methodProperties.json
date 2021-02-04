@@ -1,0 +1,19 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"assert:closeTo:" : "ct 2/5/2021 00:20",
+		"assert:closeTo:threshold:" : "ct 2/5/2021 00:03",
+		"assertCmyk:closeTo:" : "ct 2/5/2021 00:02",
+		"assertCmykColor:closeTo:" : "ct 2/5/2021 00:10",
+		"assertHsvColor:closeTo:" : "ct 2/5/2021 00:22",
+		"assertRgbColor:closeTo:" : "ct 2/5/2021 00:16",
+		"cmykThreshold" : "ct 2/5/2021 00:03",
+		"defaultThreshold" : "ct 2/5/2021 00:23",
+		"testCmyk" : "ct 2/5/2021 00:04",
+		"testCmykConversion" : "ct 2/5/2021 00:09",
+		"testHsb" : "ct 2/5/2021 00:20",
+		"testHsbConversion" : "ct 2/5/2021 00:19",
+		"testHsv" : "ct 2/5/2021 00:21",
+		"testHsvConversion" : "ct 2/5/2021 00:21",
+		"testRgbConversion" : "ct 2/5/2021 00:16" } }
