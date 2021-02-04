@@ -1,5 +1,6 @@
 running
 tearDown
 
-	[chooser delete]
+	[morphsToRestore removeAllSuchThat: [:m | m show. true].
+	chooser delete]
 		ensure: [super tearDown].
