@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfColorContextMenu",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfColorContextMenu",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }
