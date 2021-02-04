@@ -1,0 +1,16 @@
+SmalltalkCISpec {
+	#loading : [
+		SCIMetacelloLoadSpec {
+			#baseline : 'ColorContextMenu',
+			#directory : 'src',
+			#platforms : [ #squeak ],
+			#load : [ #tests ]
+		}
+	],
+	#testing : {
+		#packages : [ 'ColorContextMenu-Tests' ],
+		#coverage : {
+			#packages : [ 'ColorContextMenu-Core' ]
+		}
+	}
+}
