@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"chooser" ],
 	"name" : "ColorChooserTest",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "MTFTestCase",
 	"type" : "normal" }
