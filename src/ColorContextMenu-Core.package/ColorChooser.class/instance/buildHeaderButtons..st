@@ -4,9 +4,9 @@ buildHeaderButtons: aBuilder
 	^ {
 		aBuilder pluggableRadioButtonSpec new
 			model: self;
-			label: 'Expanding';
-			action: #toggleModeExpanding;
-			state: #isModeExpanding;
+			label: 'Pop-up';
+			action: #toggleModePopUp;
+			state: #isModePopUp;
 			yourself.
 		aBuilder pluggableRadioButtonSpec new
 			model: self;
