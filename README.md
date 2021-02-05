@@ -4,6 +4,10 @@
 
 An example radial menu implementation for Squeak/Smalltalk.
 
+## Development
+
+Clone the repository using [Squot](https://github.com/hpi-swa/Squot).
+
 ## Installation
 
 ```smalltalk
