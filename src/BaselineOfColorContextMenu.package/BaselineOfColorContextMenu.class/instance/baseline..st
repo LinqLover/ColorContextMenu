@@ -5,7 +5,9 @@ baseline: spec
 		for: #'common'
 		do: [
 			spec baseline: 'MorphicTestingFramework' with: [
-				spec repository: 'github://hpi-swa-teaching/Morphic-Testing-Framework:master/packages'].
+				spec
+					repository: 'github://hpi-swa-teaching/Morphic-Testing-Framework:master/packages';
+					loads: #('Core')].
 			
 			spec
 				package: 'ColorContextMenu-Core';
