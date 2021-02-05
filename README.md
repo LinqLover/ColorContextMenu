@@ -8,7 +8,7 @@ An example radial menu implementation for Squeak/Smalltalk.
 
 ```smalltalk
 Metacello new
-   baseline: 'ColorContextMenu';
-   githubUser: 'LinqLover' project: 'ColorContextMenu' commitish: 'master' path: 'src';
-   load.
+	baseline: 'ColorContextMenu';
+	githubUser: 'LinqLover' project: 'ColorContextMenu' commitish: 'master' path: 'src';
+	load.
 ```
