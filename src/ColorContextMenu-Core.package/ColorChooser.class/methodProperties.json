@@ -5,7 +5,7 @@
 		"buildChooser:" : "ct 2/4/2021 15:41",
 		"buildFooter:" : "ct 2/4/2021 15:12",
 		"buildHeader:" : "ct 2/4/2021 15:24",
-		"buildHeaderButtons:" : "ct 2/4/2021 15:29",
+		"buildHeaderButtons:" : "ct 2/4/2021 23:44",
 		"buildWith:" : "ct 2/4/2021 15:22",
 		"color" : "ct 2/4/2021 15:20",
 		"color:" : "ct 2/4/2021 15:37",
@@ -20,9 +20,9 @@
 		"isMode:" : "ct 2/4/2021 15:32",
 		"isModeContinuous" : "ct 2/4/2021 15:17",
 		"isModeDiscrete" : "ct 2/4/2021 15:16",
-		"isModeExpanding" : "ct 2/4/2021 15:16",
+		"isModePopUp" : "ct 2/4/2021 20:05",
 		"setColor:" : "ct 2/4/2021 15:41",
-		"toggleMode:" : "ct 2/4/2021 15:33",
+		"toggleMode:" : "ct 2/4/2021 20:06",
 		"toggleModeContinuous" : "ct 2/4/2021 15:31",
 		"toggleModeDiscrete" : "ct 2/4/2021 15:31",
-		"toggleModeExpanding" : "ct 2/4/2021 15:30" } }
+		"toggleModePopUp" : "ct 2/4/2021 20:06" } }

@@ -4,19 +4,19 @@ buildHeaderButtons: aBuilder
 	^ {
 		aBuilder pluggableRadioButtonSpec new
 			model: self;
-			label: 'Expanding';
-			action: #toggleModeExpanding;
-			state: #isModeExpanding;
+			label: 'Pop-up menu';
+			action: #toggleModePopUp;
+			state: #isModePopUp;
 			yourself.
 		aBuilder pluggableRadioButtonSpec new
 			model: self;
-			label: 'Radial (discrete)';
+			label: 'Radial menu (discrete)';
 			action: #toggleModeDiscrete;
 			state: #isModeDiscrete;
 			yourself.
 		aBuilder pluggableRadioButtonSpec new
 			model: self;
-			label: 'Radial (continuous)';
+			label: 'Radial menu (continuous)';
 			action: #toggleModeContinuous;
 			state: #isModeContinuous;
 			enabled: false

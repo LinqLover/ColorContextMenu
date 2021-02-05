@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"chooser",
-		"morphsToRestore" ],
-	"name" : "ColorChooserTest",
+		 ],
+	"name" : "CCMColorTest",
 	"pools" : [
 		 ],
-	"super" : "MTFTestCase",
+	"super" : "TestCase",
 	"type" : "normal" }
