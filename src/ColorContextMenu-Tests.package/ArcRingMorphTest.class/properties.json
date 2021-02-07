@@ -1,14 +1,14 @@
 {
-	"category" : "ColorContextMenu-Core",
+	"category" : "ColorContextMenu-Tests",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		"HatchForm" ],
+		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"menuMode" ],
-	"name" : "ColorChooserMorph",
+		 ],
+	"name" : "ArcRingMorphTest",
 	"pools" : [
 		 ],
-	"super" : "Morph",
+	"super" : "MTFTestCase",
 	"type" : "normal" }

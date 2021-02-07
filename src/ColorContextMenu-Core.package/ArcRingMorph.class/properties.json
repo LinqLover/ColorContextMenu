@@ -1,0 +1,17 @@
+{
+	"category" : "ColorContextMenu-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "ct 2/7/2021 19:07",
+	"instvars" : [
+		"startAngle",
+		"stopAngle",
+		"innerFraction",
+		"outerFraction" ],
+	"name" : "ArcRingMorph",
+	"pools" : [
+		 ],
+	"super" : "EllipseMorph",
+	"type" : "normal" }

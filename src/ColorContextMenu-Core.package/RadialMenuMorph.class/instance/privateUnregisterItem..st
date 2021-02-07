@@ -1,0 +1,4 @@
+private
+privateUnregisterItem: aRadialMenuItemMorph
+
+	aRadialMenuItemMorph removeActionsWithReceiver: self.

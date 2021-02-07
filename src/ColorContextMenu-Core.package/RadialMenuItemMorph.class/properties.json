@@ -3,12 +3,16 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		"HatchForm" ],
+		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"menuMode" ],
-	"name" : "ColorChooserMorph",
+		"labelMorph",
+		"allButtons",
+		"target",
+		"messageSend",
+		"action" ],
+	"name" : "RadialMenuItemMorph",
 	"pools" : [
 		 ],
-	"super" : "Morph",
+	"super" : "ArcRingMorph",
 	"type" : "normal" }

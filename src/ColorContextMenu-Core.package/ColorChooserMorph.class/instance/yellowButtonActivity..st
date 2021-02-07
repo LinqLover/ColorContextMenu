@@ -1,6 +1,8 @@
 event handling
 yellowButtonActivity: shiftState
 
-	| menu |
-	menu := self contextMenu.
-	menu popUpInWorld: self currentWorld.
+	self menuMode caseOf: {
+		[nil] -> [self flash].
+		[#popUp] -> [self contextMenu popUpInWorld: self currentWorld].
+		[#discrete] -> [self discreteRadialMenu popUpFor: self currentEvent].
+	}.

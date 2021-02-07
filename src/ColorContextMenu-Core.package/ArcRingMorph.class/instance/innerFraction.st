@@ -1,0 +1,4 @@
+accessing
+innerFraction
+
+	^ innerFraction

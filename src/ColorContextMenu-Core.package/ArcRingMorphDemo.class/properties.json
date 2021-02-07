@@ -3,12 +3,12 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		"HatchForm" ],
+		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"menuMode" ],
-	"name" : "ColorChooserMorph",
+		 ],
+	"name" : "ArcRingMorphDemo",
 	"pools" : [
 		 ],
-	"super" : "Morph",
+	"super" : "ArcRingMorph",
 	"type" : "normal" }
