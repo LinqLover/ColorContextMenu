@@ -1,0 +1,4 @@
+accessing
+offsetAngle
+
+	^ self startAngle

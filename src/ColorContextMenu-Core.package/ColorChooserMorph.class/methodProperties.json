@@ -6,9 +6,12 @@
 		"contextMenu" : "ct 2/4/2021 20:49",
 		"contextMenuWithLevels:forAttrib:" : "ct 2/4/2021 20:26",
 		"contextMenuWithLevelsForAttrib:" : "ct 2/4/2021 20:18",
+		"discreteRadialMenu" : "ct 2/7/2021 19:22",
 		"drawOn:" : "ct 2/4/2021 21:26",
 		"handlesMouseDown:" : "ct 2/4/2021 21:10",
 		"hatchForm" : "ct 2/4/2021 21:31",
+		"menuMode" : "ct 2/5/2021 23:54",
+		"menuMode:" : "ct 2/5/2021 23:54",
 		"newHatchForm" : "ct 2/4/2021 21:34",
 		"setAlpha:" : "ct 2/4/2021 20:33",
 		"setBlack:" : "ct 2/4/2021 21:20",
@@ -23,5 +26,5 @@
 		"setRed:" : "ct 2/4/2021 20:32",
 		"setSaturation:" : "ct 2/4/2021 20:53",
 		"setYellow:" : "ct 2/4/2021 21:02",
-		"update:with:" : "ct 2/4/2021 15:41",
-		"yellowButtonActivity:" : "ct 2/4/2021 20:23" } }
+		"update:with:" : "ct 2/5/2021 23:54",
+		"yellowButtonActivity:" : "ct 2/6/2021 00:01" } }
