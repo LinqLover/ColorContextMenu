@@ -1,0 +1,14 @@
+{
+	"category" : "ColorContextMenu-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ArcRingMorphDemo",
+	"pools" : [
+		 ],
+	"super" : "ArcRingMorph",
+	"type" : "normal" }
