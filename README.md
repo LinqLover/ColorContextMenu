@@ -16,3 +16,9 @@ Metacello new
 	githubUser: 'LinqLover' project: 'ColorContextMenu' commitish: 'master' path: 'src';
 	load.
 ```
+
+## Usage
+
+```smalltalk
+ColorChooser open.
+```
