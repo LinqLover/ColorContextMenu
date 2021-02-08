@@ -1,4 +1,4 @@
 private
 privateRegisterItem: aRadialMenuItemMorph
 
-	aRadialMenuItemMorph when: #invokeItem send: #delete to: self.
+	self flag: 'discuss' "aRadialMenuItemMorph when: #invokeItem send: #delete to: self."
