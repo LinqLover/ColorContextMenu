@@ -1,6 +1,4 @@
-as yet unclassified
+accessing
 centerAngle
 
-	^ self stopAngle > self startAngle
-		ifTrue: [{self startAngle . self stopAngle} average]
-		ifFalse: [{self startAngle . self stopAngle + (Float pi * 2)} average]
+	^ self startAngle + (self angleWidth / 2)

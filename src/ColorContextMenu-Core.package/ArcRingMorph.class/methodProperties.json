@@ -2,8 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
+		"angleWidth" : "ct 2/8/2021 19:11",
 		"borderCorrectionOffset" : "ct 2/7/2021 21:20",
-		"centerAngle" : "Kiwi 2/8/2021 18:28",
+		"centerAngle" : "ct 2/8/2021 19:13",
 		"changed" : "ct 2/7/2021 19:16",
 		"containsAngle:" : "ct 2/5/2021 19:45",
 		"containsPoint:" : "ct 2/7/2021 19:14",
@@ -24,7 +25,7 @@
 		"outerFraction:" : "ct 2/7/2021 19:40",
 		"outerRadius" : "ct 1/31/2021 00:55",
 		"radius" : "ct 1/31/2021 18:50",
-		"radius:" : "Kiwi 2/8/2021 18:32",
+		"radius:" : "ct 2/8/2021 19:13",
 		"startAngle" : "ct 1/31/2021 00:32",
 		"startAngle:" : "ct 2/7/2021 19:38",
 		"startAngle:stopAngle:" : "ct 2/7/2021 19:59",
