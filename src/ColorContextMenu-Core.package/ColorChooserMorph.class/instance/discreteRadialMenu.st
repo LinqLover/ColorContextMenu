@@ -9,13 +9,8 @@ discreteRadialMenu
 	self labelGroups
 		do: [:group |
 			group do: [:attribute |
-				menu addItemMorph: (RadialMenuItemMorph new
-					label: attribute asString;
-					action: #setRandom;
-					yourself).
-				self flag: 'TODO: add action open submenu'.
-			].
-			menu addItemMorph: (RadialMenuItemMorph new beSplitter)
-		].
+				menu add: attribute asString action: #setRandom.
+				self flag: #todo "add action open submenu"]]
+		separatedBy: [menu addLine].
 		
 	^ menu

@@ -1,4 +1,0 @@
-layout
-beNoSplitter
-
-	isSplitter := false

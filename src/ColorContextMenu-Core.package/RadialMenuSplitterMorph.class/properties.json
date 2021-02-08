@@ -6,12 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"labelMorph",
-		"allButtons",
-		"target",
-		"messageSend",
-		"action" ],
-	"name" : "RadialMenuItemMorph",
+		 ],
+	"name" : "RadialMenuSplitterMorph",
 	"pools" : [
 		 ],
 	"super" : "ArcRingMorph",
