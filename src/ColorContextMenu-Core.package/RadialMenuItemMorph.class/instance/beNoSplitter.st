@@ -1,0 +1,4 @@
+layout
+beNoSplitter
+
+	isSplitter := false

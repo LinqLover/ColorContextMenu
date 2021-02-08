@@ -10,7 +10,8 @@
 		"allButtons",
 		"target",
 		"messageSend",
-		"action" ],
+		"action",
+		"isSplitter" ],
 	"name" : "RadialMenuItemMorph",
 	"pools" : [
 		 ],
