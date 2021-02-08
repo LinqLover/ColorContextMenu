@@ -5,16 +5,17 @@ discreteRadialMenu
 	| menu |
 	menu := RadialMenuMorph new.
 	menu target: self.
-	menu addItemMorph: (RadialMenuItemMorph new
-		label: 'random';
-		action: #setRandom;
-		yourself).
-	menu addItemMorph: (RadialMenuItemMorph new
-		label: 'lighter';
-		action: [self setBrightness: self color brightness + 0.2];
-		yourself).
-	menu addItemMorph: (RadialMenuItemMorph new
-		label: 'darker';
-		action: [self setBrightness: self color brightness - 0.2];
-		yourself).
+	
+	self labelGroups
+		do: [:group |
+			group do: [:attribute |
+				menu addItemMorph: (RadialMenuItemMorph new
+					label: attribute asString;
+					action: #setRandom;
+					yourself).
+				self flag: 'TODO: add action open submenu'.
+			].
+			menu addItemMorph: (RadialMenuItemMorph new beSplitter)
+		].
+		
 	^ menu

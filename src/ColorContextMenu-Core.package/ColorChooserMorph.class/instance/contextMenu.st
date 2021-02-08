@@ -8,7 +8,7 @@ contextMenu
 		add: 'random' action: #setRandom;
 		addLine.
 	
-	#((red green blue) (hue saturation lightness brightness) (cyan magenta yellow black) (alpha))
+	self labelGroups
 		do: [:group |
 			group do: [:attrib |
 				menu
