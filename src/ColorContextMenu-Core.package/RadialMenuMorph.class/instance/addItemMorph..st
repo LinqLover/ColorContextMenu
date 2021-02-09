@@ -8,3 +8,5 @@ addItemMorph: aRadialMenuItemMorph
 	
 	self addMorphBack: aRadialMenuItemMorph.
 	self doRadialLayout.
+	
+	^ aRadialMenuItemMorph
