@@ -2,9 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
-		"angleWidth" : "ct 2/8/2021 19:11",
+		"angleWidth" : "ct 2/8/2021 20:10",
 		"borderCorrectionOffset" : "ct 2/7/2021 21:20",
 		"centerAngle" : "ct 2/8/2021 19:13",
+		"centerAngle:" : "ct 2/8/2021 20:45",
+		"centerAngle:angleWidth:" : "ct 2/8/2021 20:09",
 		"changed" : "ct 2/7/2021 19:16",
 		"containsAngle:" : "ct 2/5/2021 19:45",
 		"containsPoint:" : "ct 2/7/2021 19:14",
@@ -18,6 +20,7 @@
 		"innerFraction:" : "ct 2/7/2021 19:39",
 		"innerFraction:outerFraction:" : "ct 2/7/2021 19:59",
 		"innerRadius" : "ct 1/31/2021 00:53",
+		"innerRadius:outerRadius:" : "ct 2/8/2021 20:07",
 		"isArc" : "ct 2/5/2021 19:44",
 		"isCircle" : "ct 1/31/2021 18:51",
 		"outerBounds" : "ct 2/7/2021 19:11",
