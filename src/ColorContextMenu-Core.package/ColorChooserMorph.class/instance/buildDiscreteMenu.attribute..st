@@ -1,4 +1,4 @@
 menus
 buildDiscreteMenu: menuFactory attribute: aSymbol
 
-	^ self buildDiscreteMenu: menuFactory attribute: aSymbol levels: 6
+	^ self buildDiscreteMenu: menuFactory attribute: aSymbol levels: self defaultNumberOfLevels
