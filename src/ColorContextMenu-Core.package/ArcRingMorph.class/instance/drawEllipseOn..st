@@ -6,7 +6,7 @@ drawEllipseOn: aCanvas
 	radius := self radius.
 	minQuadrant := (self startAngle / (Float pi * 2) * 4 \\ 4) floor.
 	maxQuadrant := (self stopAngle / (Float pi * 2) * 4 \\ 4 - 1) ceiling.
-	self stopAngle - self startAngle > Float epsilon ifFalse: [
+	self stopAngle - self startAngle > 1e-10 ifFalse: [
 		maxQuadrant := maxQuadrant + 4].
 	min := self startAngle sinCos * radius.
 	max := self stopAngle sinCos * radius.
