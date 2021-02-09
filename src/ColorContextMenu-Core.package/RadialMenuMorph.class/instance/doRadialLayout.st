@@ -5,9 +5,9 @@ doRadialLayout
 	flexValues := self items collect: [:item | item radialFlexWeight].
 	"Like a watch: CW starting at North"
 	flexPos := 0.
-	angles := flexValues collect: [:flex |
+	angles := (flexValues copyWith: 0) collect: [:flex |
 		flexPos := flexPos + flex.
-		self startAngle + Float pi - (Float pi  * 2 * (flexPos - flex) / flexValues sum)].
+		self stopAngle - (self angleWidth * (flexPos - flex) / flexValues sum)].
 	
 	self items withIndexDo: [:item :index |
 		item

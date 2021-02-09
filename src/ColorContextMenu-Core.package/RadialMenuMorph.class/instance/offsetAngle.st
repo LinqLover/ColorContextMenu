@@ -1,4 +1,0 @@
-accessing
-offsetAngle
-
-	^ self startAngle
