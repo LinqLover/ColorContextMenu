@@ -1,4 +1,4 @@
 accessing
 label
 
-	^ self labelMorph contents
+	^ self labelMorph submorphs first contents
