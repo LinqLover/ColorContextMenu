@@ -1,13 +1,17 @@
 menus
 buildDiscreteMenu: menuFactory attribute: aSymbol levels: levels
 
-	| menu setter |
+	| menu setter getter steps |
 	self flag: 'Warum heißt es hier menuFactory und nicht aRadialMenuMorph?'.
 	menu := menuFactory value.
-	setter := ('set{1}:'  format: {aSymbol capitalized}) asSymbol.
+	setter := ('set{1}:' format: {aSymbol capitalized}) asSymbol.
+	getter := ('get{1}:' format: {aSymbol capitalized}) asSymbol.
 	
-	0 to: levels - 1 do: [:level |
-		menu add: ('{1}%' format: {(level / (levels - 1) * 100) rounded}) action: [
-			self perform: setter with: level / (levels - 1)]].
+	steps := levels - 1.
+	0 to: steps do: [:level |
+		menu 
+			add: ('{1}%' format: {(level / steps * 100) rounded}) 
+			action: [self perform: setter with: level / steps]
+			color: (self perform: getter with: level / steps) ].
 	
 	^ menu

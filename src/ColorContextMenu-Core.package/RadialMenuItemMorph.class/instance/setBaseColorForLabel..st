@@ -12,5 +12,3 @@ setBaseColorForLabel: aSymbol
 
 	self baseColor: (rawColor mixed: 0.6 with: self defaultBaseColor).
 	
-	self privateInteractionState: nil.
-	
