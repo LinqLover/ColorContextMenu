@@ -1,4 +1,4 @@
 accessing
-defaultBaseColor
+initialization
 
 	^ Color gray: 0.3
