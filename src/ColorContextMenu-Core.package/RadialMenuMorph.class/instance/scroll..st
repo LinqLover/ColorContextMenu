@@ -11,9 +11,10 @@ scroll: count
 		start: #deleteWhenFinished."
 	self centerAngle: self centerAngle + (count * 0.2 / (Float pi * 2)).
 	
-	self submorphs do: [ :submorph |
-		submorph class = RadialMenuMorph ifTrue: [
-			submorph centerAngle: submorph centerAngle + (count * 0.2 / (Float pi * 2))]].
+	self submorphs
+		select: [:morph | morph isKindOf: RadialMenuMorph]
+		thenDo: [:menu |
+			menu centerAngle: menu centerAngle + (count * 0.2 / (Float pi * 2))].
 	
 	self handleEvent: self currentEvent asMouseMove.
 	
