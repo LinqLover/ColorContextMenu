@@ -6,4 +6,4 @@ testDiscreteRadialRandom
 	menu := self openMenu.
 	
 	item := menu findByLabel: 'Random'.
-	self shouldChangeColor: [item clickButton: item class leftButton with: 0 at: item effectiveBounds center].
+	self shouldChangeColor: [item ccmClickButton: item class leftButton with: 0 at: item effectiveBounds center].

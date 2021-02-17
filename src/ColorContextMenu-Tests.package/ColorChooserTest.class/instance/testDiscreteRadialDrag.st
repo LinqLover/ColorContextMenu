@@ -14,4 +14,4 @@ testDiscreteRadialDrag
 	item := menu findByLabel: 'Random'.
 	item halt sendMouseMoveEventForButton: item class rightButton modifiers: 0 position: item effectiveBounds center.
 	self flag: #todo. "We need more elaborate simulation, try out MorphicEventTests?"
-	self shouldChangeColor: [item sendMouseEvent: #mouseUp button: item class rightButton modifiers: 0 position: item effectiveBounds center].
+	self shouldChangeColor: [item ccmSendMouseEvent: #mouseUp button: item class rightButton modifiers: 0 position: item effectiveBounds center].
