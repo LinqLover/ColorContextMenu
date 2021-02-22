@@ -10,7 +10,8 @@ buildDiscreteMenu: menuFactory
 		addLine;
 		add: 'lighter' action: #setLighter;
 		add: 'darker' action: #setDarker;
-		addLine.
+		addLine;
+		add: 'LIBRARY' subMenu: self buildLibrarySubMenu.
 	
 	self labelGroups do: [:group |
 		group do: [:attrib |

@@ -2,9 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"buildDiscreteMenu:" : "Kiwi 2/9/2021 14:33",
+		"buildDiscreteMenu:" : "Kiwi 2/22/2021 16:29",
 		"buildDiscreteMenu:attribute:" : "Kiwi 2/9/2021 14:17",
 		"buildDiscreteMenu:attribute:levels:" : "Kiwi 2/9/2021 14:46",
+		"buildLibrarySubMenu" : "Kiwi 2/22/2021 17:45",
 		"color:" : "ct 2/4/2021 15:37",
 		"contextMenu" : "ct 2/8/2021 19:46",
 		"defaultNumberOfLevels" : "Kiwi 2/9/2021 14:16",
@@ -12,7 +13,10 @@
 		"drawOn:" : "ct 2/4/2021 21:26",
 		"handlesMouseDown:" : "ct 2/4/2021 21:10",
 		"hatchForm" : "ct 2/4/2021 21:31",
+		"initialize" : "Kiwi 2/22/2021 17:37",
 		"labelGroups" : "Kiwi 2/8/2021 15:57",
+		"library" : "Kiwi 2/22/2021 17:35",
+		"library:" : "Kiwi 2/22/2021 17:36",
 		"menuMode" : "ct 2/5/2021 23:54",
 		"menuMode:" : "ct 2/5/2021 23:54",
 		"newHatchForm" : "ct 2/4/2021 21:34",
@@ -30,6 +34,7 @@
 		"setRandom" : "ct 2/4/2021 21:34",
 		"setRed:" : "ct 2/4/2021 20:32",
 		"setSaturation:" : "ct 2/4/2021 20:53",
+		"setUpLibrary" : "Kiwi 2/22/2021 17:43",
 		"setYellow:" : "ct 2/4/2021 21:02",
 		"update:with:" : "ct 2/5/2021 23:54",
 		"yellowButtonActivity:" : "ct 2/8/2021 19:52" } }
