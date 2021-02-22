@@ -11,7 +11,8 @@
 		"target",
 		"messageSend",
 		"action",
-		"baseColor" ],
+		"baseColor",
+		"interactionState" ],
 	"name" : "RadialMenuItemMorph",
 	"pools" : [
 		 ],
