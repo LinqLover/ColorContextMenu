@@ -1,4 +1,4 @@
 event handling
 mouseLeave: anEvent
 
-	self privateInteractionState: nil.
+	self interactionState: nil.

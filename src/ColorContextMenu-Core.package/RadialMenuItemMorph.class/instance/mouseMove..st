@@ -13,6 +13,7 @@ mouseMove: anEvent
 			and: [m containsPoint: anEvent position]]
 		ifFound: [:m |
 			"Transfer mouse focus to new button. Detour through common owner and call #processMouseOver: to have enter/leave events sent correctly."
-			anEvent hand newMouseFocus: self owner.
-			anEvent hand mouseOverHandler processMouseOver: anEvent.
+			(m hasOwner: self) ifFalse: [
+				anEvent hand newMouseFocus: self owner.
+				anEvent hand mouseOverHandler processMouseOver: anEvent].
 			self giveMouseFocusTo: m event: anEvent].

@@ -1,6 +1,7 @@
 event handling
 mouseDown: anEvent
 
-	(self wantsToStayUp not and: [(self containsPoint: anEvent position) not]) ifTrue: [
+	(self wantsToStayUp or: [self fullContainsPoint: anEvent position]) ifFalse: [
 		^ self delete].
-	anEvent wasHandled: false.
+	
+	^ super mouseDown: anEvent

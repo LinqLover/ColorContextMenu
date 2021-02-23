@@ -2,11 +2,22 @@
 	"class" : {
 		 },
 	"instance" : {
+		"chooseDiscreteRadial" : "ct 2/11/2021 15:11",
+		"chooseMode:" : "ct 2/11/2021 15:10",
+		"choosePopUp" : "ct 2/11/2021 15:09",
+		"expectedFailures" : "ct 2/17/2021 19:53",
+		"findMenu" : "ct 2/11/2021 19:55",
 		"findTopMorph" : "ct 2/5/2021 00:41",
-		"initialize" : "ct 2/5/2021 00:38",
+		"initialize" : "ct 2/11/2021 15:49",
+		"openMenu" : "ct 2/11/2021 19:55",
 		"performTest" : "ct 2/4/2021 23:53",
 		"setUp" : "ct 2/5/2021 00:38",
-		"tearDown" : "ct 2/5/2021 00:39",
-		"testDiscreteRadialMenu" : "ct 2/7/2021 21:27",
+		"shouldChangeColor:" : "ct 2/11/2021 15:27",
+		"tearDown" : "ct 2/11/2021 15:50",
+		"testDiscreteRadialDrag" : "ct 2/17/2021 21:50",
+		"testDiscreteRadialMenu" : "ct 2/11/2021 15:29",
+		"testDiscreteRadialRandom" : "ct 2/17/2021 21:48",
+		"testDiscreteRadialRed" : "ct 2/17/2021 21:48",
 		"testOpen" : "ct 2/4/2021 19:26",
-		"testPopUpMenu" : "ct 2/5/2021 00:40" } }
+		"testPopUpMenu" : "ct 2/11/2021 15:30",
+		"testPopUpRandom" : "ct 2/11/2021 15:30" } }

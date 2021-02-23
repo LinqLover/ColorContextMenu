@@ -1,4 +1,4 @@
 accessing
 outerFractionForItems
 
-	^ self outerFraction - 0.05
+	^ self outerFraction "- 0.05"
