@@ -1,4 +1,4 @@
-as yet unclassified
+updating
 updateSubmenus
 
 	self subMenus ifEmpty: [^ self].
