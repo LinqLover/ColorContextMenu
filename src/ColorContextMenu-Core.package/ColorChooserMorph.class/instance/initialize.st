@@ -3,4 +3,4 @@ initialize
 
 	super initialize.
 	
-	self initializeLibrary.
+	libraryColors := OrderedCollection withAll: self defaultLibraryColors.

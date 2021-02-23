@@ -1,4 +1,0 @@
-accessing
-library
-
-	^ library
