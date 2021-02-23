@@ -1,4 +1,4 @@
 private
 labelMorph
 
-	^ labelMorph
+	^ labelMorph firstSubmorph

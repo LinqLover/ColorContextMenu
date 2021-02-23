@@ -2,7 +2,8 @@ event handling
 mouseUp: anEvent
 
 	(self containsPoint: anEvent position) ifFalse: [
-		^ self privateInteractionState: nil].
+		^ self interactionState: nil].
 	
-	self privateInteractionState: #hover.
-	self doButtonAction.
+	self interactionState: #hover.
+	self hasSubMenu ifFalse: [
+		self doButtonAction].

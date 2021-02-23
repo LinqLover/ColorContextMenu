@@ -1,4 +1,4 @@
 event handling
 mouseEnter: anEvent
 
-	self privateInteractionState: #hover.
+	self interactionState: #hover.

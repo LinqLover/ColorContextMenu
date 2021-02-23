@@ -1,4 +1,10 @@
 event handling
 mouseDown: anEvent
 
-	self privateInteractionState: #active.
+	self interactionState: #active.
+	
+	self closeCompetingSubmenus.
+	self hasSubMenu ifTrue: [
+		self doButtonAction].
+	
+	self interactionState: #active.
