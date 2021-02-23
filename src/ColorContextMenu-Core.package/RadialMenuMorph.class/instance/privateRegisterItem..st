@@ -1,4 +1,6 @@
 private
 privateRegisterItem: aRadialMenuItemMorph
 
-	aRadialMenuItemMorph when: #invokeItem send: #delete to: self.
+	self flag: #discuss. "Edge case for top-level menus?"
+	"self rootMenu == self ifFalse: [
+		aRadialMenuItemMorph when: #invokeItem send: #delete to: self]."

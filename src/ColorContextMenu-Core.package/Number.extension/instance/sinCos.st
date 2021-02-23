@@ -1,4 +1,4 @@
-*ColorContextMenu-Core-mathematical functions-override
+*ColorContextMenu-Core-mathematical functions-pseudo-override
 sinCos
 
 	^ self asPoint sinCos

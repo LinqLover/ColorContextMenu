@@ -10,7 +10,9 @@
 		"allButtons",
 		"target",
 		"messageSend",
-		"action" ],
+		"action",
+		"baseColor",
+		"interactionState" ],
 	"name" : "RadialMenuItemMorph",
 	"pools" : [
 		 ],

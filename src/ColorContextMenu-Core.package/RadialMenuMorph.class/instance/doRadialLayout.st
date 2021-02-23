@@ -1,12 +1,15 @@
 layout
 doRadialLayout
 
-	| angles size |
-	size := self items size.
+	| flexValues flexPos angles |
+	flexValues := self allItems collect: [:item | item radialFlexWeight].
 	"Like a watch: CW starting at North"
-	angles := (1 to: self items size) collect: [:i |
-		self startAngle + Float pi - (Float pi  * 2 * i / size)].
-	self items withIndexDo: [:item :index |
+	flexPos := 0.
+	angles := (flexValues copyWith: 0) collect: [:flex |
+		flexPos := flexPos + flex.
+		self stopAngle - (self angleWidth * (flexPos - flex) / flexValues sum)].
+	
+	self allItems withIndexDo: [:item :index |
 		item
 			startAngle: (angles atWrap: index + 1)
 			stopAngle: (angles at: index).

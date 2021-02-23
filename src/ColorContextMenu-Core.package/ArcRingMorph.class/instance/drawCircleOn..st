@@ -7,7 +7,7 @@ drawCircleOn: aCanvas
 	radius := self radius x min: self radius y.
 	minOctant := (self startAngle / (Float pi * 2) * 8 \\ 8) floor.
 	maxOctant := (self stopAngle / (Float pi * 2) * 8 \\ 8 - 1) ceiling.
-	self stopAngle - self startAngle > Float epsilon ifFalse: [
+	self stopAngle - self startAngle > 1e-10 ifFalse: [
 		maxOctant := maxOctant + 8].
 	min := self startAngle sinCos * radius.
 	max := self stopAngle sinCos * radius.

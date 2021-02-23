@@ -1,0 +1,14 @@
+{
+	"category" : "ColorContextMenu-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "RadialMenuSplitterMorph",
+	"pools" : [
+		 ],
+	"super" : "ArcRingMorph",
+	"type" : "normal" }

@@ -1,4 +1,4 @@
 accessing
 label: aStringOrText
 
-	self labelMorph contents: aStringOrText.
+	self labelMorph contents: aStringOrText capitalized.
