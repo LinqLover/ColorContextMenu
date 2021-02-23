@@ -16,7 +16,8 @@
 		"drawOn:" : "ct 2/4/2021 21:26",
 		"handlesMouseDown:" : "ct 2/4/2021 21:10",
 		"hatchForm" : "ct 2/4/2021 21:31",
-		"initialize" : "Kiwi 2/22/2021 17:37",
+		"initialize" : "ct 2/23/2021 17:12",
+		"initializeLibrary" : "ct 2/23/2021 17:12",
 		"labelGroups" : "Kiwi 2/8/2021 15:57",
 		"library" : "Kiwi 2/22/2021 17:35",
 		"library:" : "Kiwi 2/22/2021 17:36",
@@ -37,7 +38,6 @@
 		"setRandom" : "ct 2/4/2021 21:34",
 		"setRed:" : "ct 2/4/2021 20:32",
 		"setSaturation:" : "ct 2/4/2021 20:53",
-		"setUpLibrary" : "Kiwi 2/22/2021 17:43",
 		"setYellow:" : "ct 2/4/2021 21:02",
 		"update:with:" : "ct 2/5/2021 23:54",
 		"yellowButtonActivity:" : "ct 2/8/2021 19:52" } }

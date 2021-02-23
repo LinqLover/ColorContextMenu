@@ -1,4 +1,6 @@
 initialization
 initialize
 
-	self setUpLibrary
+	super initialize.
+	
+	self initializeLibrary.
