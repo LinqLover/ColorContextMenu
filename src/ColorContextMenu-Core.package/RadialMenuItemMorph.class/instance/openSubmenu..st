@@ -1,15 +1,22 @@
 button
-openSubmenu: aRadialMenuMorph
+openSubmenu: menuOrEvaluable
 
-	| outerRadius |
-	aRadialMenuMorph owner == self ifTrue: [
-		^ aRadialMenuMorph delete].
+	| subMenu outerRadius |
+	(previousSubmenus ifNotNil: [previousSubmenus at: menuOrEvaluable ifAbsent: [nil]]) ifNotNil: [:previousMenu |
+		previousMenu owner == self ifTrue: [
+			^ previousMenu delete]].
 	
+	subMenu := (menuOrEvaluable isKindOf: RadialMenuMorph)
+		ifTrue: [menuOrEvaluable]
+		ifFalse: [menuOrEvaluable cull: self target].
 	outerRadius := (self ownerMenu ifNil: [self]) outerRadius.
-	aRadialMenuMorph
+	subMenu
 		innerRadius: outerRadius outerRadius: outerRadius * 2 - self innerRadius;
 		center: self center.
-	aRadialMenuMorph
+	subMenu
 		centerAngle: self centerAngle
 		angleWidth: Float pi / 2.
-	self addMorph: aRadialMenuMorph.
+	self addMorph: subMenu.
+	
+	(previousSubmenus ifNil: [previousSubmenus := WeakIdentityKeyDictionary new])
+		at: menuOrEvaluable put: subMenu.
