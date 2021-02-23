@@ -8,7 +8,6 @@ addItemMorph: aRadialMenuItemMorph
 		self privateRegisterItem: aRadialMenuItemMorph].
 	
 	self addMorphBack: aRadialMenuItemMorph.
-	self addDependent: aRadialMenuItemMorph.
 	self doRadialLayout.
 	
 	^ aRadialMenuItemMorph
