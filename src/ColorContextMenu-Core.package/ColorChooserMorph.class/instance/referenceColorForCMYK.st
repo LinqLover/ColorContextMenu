@@ -1,0 +1,4 @@
+private
+referenceColorForCMYK
+
+	^ Color white

@@ -1,0 +1,4 @@
+private
+referenceColorForItems
+
+	^ Color red

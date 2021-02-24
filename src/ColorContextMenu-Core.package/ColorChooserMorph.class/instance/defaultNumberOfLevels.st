@@ -1,4 +1,4 @@
 private
 defaultNumberOfLevels
 
-	^ 6
+	^ 9
