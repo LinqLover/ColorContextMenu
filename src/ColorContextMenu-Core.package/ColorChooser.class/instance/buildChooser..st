@@ -7,6 +7,8 @@ buildChooser: aBuilder
 		when: #newColor send: #color: to: self;
 		yourself.
 	self addDependent: chooser.
+	chooser menuMode: mode.
+	
 	^ aBuilder pluggablePanelSpec new
 		model: chooser;
 		children: #asOrderedCollection;

@@ -1,4 +1,4 @@
 testing
 hasSubMenu
 
-	^ self action isKindOf: RadialMenuMorph
+	^ hasSubMenu

@@ -6,7 +6,7 @@ testDiscreteRadialRed
 	chooser model color: Color green.
 	menu := self openMenu.
 	
-	item := menu findByLabel: 'Red'.
+	item := menu findByLabel: 'red'.
 	item ccmClickButton: item class leftButton with: 0 at: item effectiveBounds center.
 	item := menu findByLabel: '75%'.
 	item ccmClickButton: item class leftButton with: 0 at: item effectiveBounds center.
