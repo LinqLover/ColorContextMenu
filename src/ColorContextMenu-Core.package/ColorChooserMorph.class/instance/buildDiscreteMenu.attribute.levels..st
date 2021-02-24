@@ -2,7 +2,6 @@ menus
 buildDiscreteMenu: menuFactory attribute: aSymbol levels: levels
 
 	| menu setter getter steps item |
-
 	menu := menuFactory value.
 	setter := ('set{1}:' format: {aSymbol capitalized}) asSymbol.
 	
