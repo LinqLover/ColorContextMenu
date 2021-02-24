@@ -1,4 +1,4 @@
 accessing
 getMagenta: aFraction
 
-	^ Color white ccmWithMagenta: aFraction
+	^ self referenceColorForCMYK ccmWithMagenta: aFraction

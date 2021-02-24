@@ -1,4 +1,4 @@
 accessing
 getAlpha: aFraction
 
-	^ self referenceColorForItems ccmWithLightness: 1 - (aFraction / 2)
+	^ self referenceColorForItems ccmWithSaturation: aFraction

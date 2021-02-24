@@ -1,4 +1,4 @@
-as yet unclassified
+private
 referenceColorForItems
 
-	^ Color orange
+	^ Color red

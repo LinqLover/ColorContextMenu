@@ -1,4 +1,4 @@
 accessing
 getBlue: aFraction
 
-	^ Color black ccmWithBlue: aFraction
+	^ self referenceColorForRGB ccmWithBlue: aFraction

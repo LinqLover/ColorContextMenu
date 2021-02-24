@@ -3,9 +3,6 @@ initialize
 
 	super initialize.
 	
+	self addMorph: (labelMorph := self basicLabelMorph).
 	self privateInteractionState: nil.
 	self borderWidth: self defaultBorderWidth.
-	self addDependent: self.
-	
-	self addMorph: (labelMorph := self basicLabelMorph).
-	"labelMorph color: Color white."

@@ -1,4 +1,4 @@
 accessing
 getBlack: aFraction
 
-	^ Color white ccmWithCmykBlack: aFraction
+	^ self referenceColorForCMYK ccmWithCmykBlack: aFraction

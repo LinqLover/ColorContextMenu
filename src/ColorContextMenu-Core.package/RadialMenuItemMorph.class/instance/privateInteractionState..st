@@ -7,4 +7,3 @@ privateInteractionState: aSymbol
 		[#hover] -> [self baseColor lighter].
 		[#active] -> [self baseColor twiceLighter]
 	}).
-	self changed: #color

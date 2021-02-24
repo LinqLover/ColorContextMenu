@@ -1,4 +1,4 @@
-as yet unclassified
+updating
 updateLabelColor
 
 	self color luminance > 0.5 

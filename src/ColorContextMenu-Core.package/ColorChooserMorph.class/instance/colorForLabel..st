@@ -7,6 +7,7 @@ colorForLabel: label
 	symbol = #darker ifTrue: [ ^ Color veryVeryDarkGray ].
 	symbol = #lighter ifTrue: [ ^ Color lightGray ].
 	symbol = #random ifTrue: [ ^ nil ].
+	symbol = #value ifTrue: [ ^ nil ].
 	
 	(Color class canUnderstand: symbol) ifTrue: [ ^ Color perform: symbol ].
 	
