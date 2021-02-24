@@ -7,4 +7,4 @@ containsPoint: aPoint
 	(self innerRadius isZero not and: [(aPoint - self center / self innerRadius) squared < 1]) ifTrue: [^ false].
 	(aPoint - self center / self outerRadius) squared > 1 ifTrue: [^ false].
 	
-	^ self containsAngle: (aPoint - self center / self extent) leftRotated theta negated
+	^ self containsAngle: (self angleOfPoint: aPoint)
