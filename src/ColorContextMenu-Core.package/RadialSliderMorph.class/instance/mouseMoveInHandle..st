@@ -13,4 +13,4 @@ mouseMoveInHandle: anEvent
 			relativeAngle + trimDelta \\ (Float pi * 2) - trimDelta]
 		ifFalse: [relativeAngle].
 	rawFraction := trimmedAngle / (self angleWidth - handle angleWidth).
-	self valueFraction: (rawFraction min: 1 max: 0).
+	self valueFraction: 1 - (rawFraction min: 1 max: 0).
