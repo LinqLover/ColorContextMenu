@@ -5,4 +5,5 @@ yellowButtonActivity: shiftState
 		[nil] -> [^ self flash].
 		[#popUp] -> [self contextMenu].
 		[#discrete] -> [self discreteRadialMenu].
+		[#continuous] -> [self continuousRadialMenu].
 	}) popUpInWorld.
