@@ -1,4 +1,4 @@
 accessing
 handleColor
 
-	^ Color gray: 0.25
+	^ handle color
