@@ -1,4 +1,4 @@
 accessing
 getValue: aFraction
 
-	^ self referenceColorForItems ccmWithBrightness: aFraction
+	^ Color white ccmWithBrightness: aFraction
