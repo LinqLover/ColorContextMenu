@@ -6,7 +6,7 @@ openSubmenu: menuOrEvaluable
 		previousMenu owner == self ifTrue: [
 			^ previousMenu delete]].
 	
-	subMenu := (menuOrEvaluable isKindOf: RadialMenuMorph)
+	subMenu := (menuOrEvaluable isMorph and: [menuOrEvaluable isRadialMenuMorph])
 		ifTrue: [menuOrEvaluable]
 		ifFalse: [menuOrEvaluable cull: self target].
 	outerRadius := (self ownerMenu ifNil: [self]) outerRadius.

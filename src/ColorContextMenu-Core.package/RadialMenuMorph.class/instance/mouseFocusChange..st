@@ -6,5 +6,5 @@ mouseFocusChange: aBoolean
 	aBoolean ifTrue: [^ self].
 	
 	focus := self currentHand mouseFocus.
-	(focus isKindOf: RadialMenuItemMorph) ifTrue: [
+	(focus notNil and: [focus isRadialMenuItemMorph]) ifTrue: [
 		focus setProperty: #priorMouseFocus toValue: self].

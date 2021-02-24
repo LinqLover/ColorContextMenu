@@ -1,5 +1,5 @@
 OrderedDictionary {
-	'src/ColorContextMenu-Core.package' : #SquotCypressCodeSerializer,
-	'src/ColorContextMenu-Tests.package' : #SquotCypressCodeSerializer,
-	'src/BaselineOfColorContextMenu.package' : #SquotCypressCodeSerializer
+	'src\/ColorContextMenu-Core.package' : #SquotCypressCodeSerializer,
+	'src\/ColorContextMenu-Tests.package' : #SquotCypressCodeSerializer,
+	'src\/BaselineOfColorContextMenu.package' : #SquotCypressCodeSerializer
 }

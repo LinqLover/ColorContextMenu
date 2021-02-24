@@ -1,4 +1,4 @@
 updating
 updateLabelColor
 
-	self labelColor: self color makeForegroundColor.
+	self labelColor: self baseColor makeForegroundColor.

@@ -4,7 +4,7 @@ addItemMorph: aRadialMenuItemMorph
 	aRadialMenuItemMorph
 		layoutFrame: LayoutFrame fullFrame;
 		hResizing: #spaceFill; vResizing: #spaceFill.
-	(aRadialMenuItemMorph isKindOf: RadialMenuItemMorph) ifTrue: [
+	aRadialMenuItemMorph isRadialMenuItemMorph ifTrue: [
 		self privateRegisterItem: aRadialMenuItemMorph].
 	
 	self addMorphBack: aRadialMenuItemMorph.

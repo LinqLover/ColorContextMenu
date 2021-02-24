@@ -1,5 +1,5 @@
 menus
-buildDiscreteMenu: menuFactory
+buildMenu: menuFactory continuous: continuous
 
 	| menu |
 	menu := menuFactory value.
@@ -20,9 +20,12 @@ buildDiscreteMenu: menuFactory
 		do: [:group |
 			group do: [:attrib |
 				self addToMenu: menu coloredItem: attrib asString subMenu: (
-					self buildDiscreteMenu: menuFactory attribute: attrib)]]
+					continuous
+						ifTrue: [self buildContinuousMenuForAttribute: attrib]
+						ifFalse: [self buildDiscreteMenu: menuFactory attribute: attrib])].
+			menu addLine]
 		separatedBy: [menu addLine].
-	(menu isKindOf: RadialMenuMorph) ifTrue: [
+	menu isRadialMenuMorph ifTrue: [
 		menu addLine].
 	
 	^ menu

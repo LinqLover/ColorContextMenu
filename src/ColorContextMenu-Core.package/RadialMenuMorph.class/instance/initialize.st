@@ -3,8 +3,7 @@ initialize
 
 	super initialize.
 	
+	self extent: self defaultExtent.
 	self innerFraction: self defaultInnerFraction.
 	self centerAngle: 0.
-	self borderWidth: self defaultBorderWidth.
-	self extent: self defaultExtent.
 	self changeProportionalLayout.

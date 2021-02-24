@@ -2,13 +2,16 @@
 	"class" : {
 		 },
 	"instance" : {
+		"angleOfPoint:" : "ct 2/24/2021 13:00",
 		"angleWidth" : "ct 2/8/2021 20:10",
+		"angleWidth:" : "ct 2/24/2021 18:15",
 		"borderCorrectionOffset" : "ct 2/7/2021 21:20",
 		"centerAngle" : "ct 2/8/2021 19:13",
 		"centerAngle:" : "ct 2/8/2021 20:45",
 		"centerAngle:angleWidth:" : "ct 2/8/2021 20:09",
-		"containsAngle:" : "ct 2/5/2021 19:45",
-		"containsPoint:" : "ct 2/7/2021 19:14",
+		"containsAngle:" : "ct 2/24/2021 13:11",
+		"containsPoint:" : "ct 2/24/2021 12:59",
+		"defaultBorderWidth" : "ct 2/24/2021 12:57",
 		"drawCircleOn:" : "ct 2/8/2021 22:39",
 		"drawEllipseOn:" : "ct 2/9/2021 01:44",
 		"drawOn:" : "ct 1/31/2021 18:56",

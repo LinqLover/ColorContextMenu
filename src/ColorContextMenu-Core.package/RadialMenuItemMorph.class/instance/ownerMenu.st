@@ -1,6 +1,6 @@
 accessing
 ownerMenu
 
-	^ (self owner isKindOf: RadialMenuMorph)
+	^ self owner isRadialMenuMorph
 		ifTrue: [self owner]
 		ifFalse: [nil]

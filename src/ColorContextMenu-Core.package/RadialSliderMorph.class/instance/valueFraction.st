@@ -1,0 +1,4 @@
+accessing
+valueFraction
+
+	^ self value
