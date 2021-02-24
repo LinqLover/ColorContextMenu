@@ -1,0 +1,4 @@
+accessing
+minimumLibrarySize
+
+	^ 8

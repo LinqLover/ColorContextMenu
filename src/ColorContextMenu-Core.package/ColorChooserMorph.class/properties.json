@@ -6,7 +6,8 @@
 		"HatchForm" ],
 	"commentStamp" : "",
 	"instvars" : [
-		"menuMode" ],
+		"menuMode",
+		"libraryColors" ],
 	"name" : "ColorChooserMorph",
 	"pools" : [
 		 ],

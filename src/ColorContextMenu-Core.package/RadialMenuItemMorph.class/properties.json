@@ -12,7 +12,9 @@
 		"messageSend",
 		"action",
 		"baseColor",
-		"interactionState" ],
+		"interactionState",
+		"hasSubMenu",
+		"previousSubmenus" ],
 	"name" : "RadialMenuItemMorph",
 	"pools" : [
 		 ],
