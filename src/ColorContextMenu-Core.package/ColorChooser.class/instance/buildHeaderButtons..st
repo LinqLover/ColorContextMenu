@@ -19,6 +19,5 @@ buildHeaderButtons: aBuilder
 			label: 'Radial menu (continuous)';
 			action: #toggleModeContinuous;
 			state: #isModeContinuous;
-			enabled: false
 			yourself
 	}
