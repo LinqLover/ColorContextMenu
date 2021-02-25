@@ -3,6 +3,7 @@ doRadialLayout
 
 	| flexValues flexPos angles |
 	flexValues := self allItems collect: [:item | item radialFlexWeight].
+	flexValues ifEmpty: [^ self].
 	"Like a watch: CW starting at North"
 	flexPos := 0.
 	angles := (flexValues copyWith: 0) collect: [:flex |

@@ -5,5 +5,5 @@ doButtonAction
 		^ self openSubmenu: menuOrEvaluable].
 	
 	self action ifNotNil: [:evaluable |
-		evaluable cull: self target].
+		evaluable ccmValueWithEnoughArguments: {self target. self currentEvent}].
 	self triggerEvent: #invokeItem with: self.

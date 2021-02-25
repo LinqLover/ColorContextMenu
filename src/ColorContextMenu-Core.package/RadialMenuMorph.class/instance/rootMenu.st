@@ -1,6 +1,6 @@
 accessing
 rootMenu
 
-	^ (self owner isKindOf: RadialMenuItemMorph)
+	^ (self owner notNil and: [self owner isRadialMenuItemMorph])
 		ifTrue: [self owner rootMenu]
 		ifFalse: [self]
