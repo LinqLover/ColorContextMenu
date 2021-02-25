@@ -22,8 +22,7 @@ buildMenu: menuFactory continuous: continuous
 				self addToMenu: menu coloredItem: attrib asString subMenu: (
 					continuous
 						ifTrue: [self buildContinuousMenuForAttribute: attrib]
-						ifFalse: [self buildDiscreteMenu: menuFactory attribute: attrib])].
-			menu addLine]
+						ifFalse: [self buildDiscreteMenu: menuFactory attribute: attrib])]]
 		separatedBy: [menu addLine].
 	menu isRadialMenuMorph ifTrue: [
 		menu addLine].
