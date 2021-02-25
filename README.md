@@ -10,12 +10,12 @@ For more information on our repository, just check it our or take a look into ou
 
 <table>
   <tr>
-    <td><a href="img/screenshot-library.png"><img src="img/screenshot-library.png"/></a></td>
-    <td><a href="img/screenshot-hue.png"><img src="img/screenshot-hue.png"/></a></td>
+    <td align="center"><a href="img/screenshot-library.png"><img src="img/screenshot-library.png"/></a></td>
+    <td align="center"><a href="img/screenshot-hue.png"><img src="img/screenshot-hue.png"/></a></td>
   </tr>
   <tr>
-    <td><a href="img/screenshot-classic.png"><img src="img/screenshot-classic.png"/></a></td>
-    <td><a href="img/screenshot-radial.png"><img src="img/screenshot-radial.png"/></a></td>
+    <td align="center"><a href="img/screenshot-classic.png"><img src="img/screenshot-classic.png"/></a></td>
+    <td align="center"><a href="img/screenshot-radial.png"><img src="img/screenshot-radial.png"/></a></td>
   </tr>
  </table>
 
