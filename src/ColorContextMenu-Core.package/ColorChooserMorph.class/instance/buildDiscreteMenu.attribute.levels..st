@@ -12,7 +12,6 @@ buildDiscreteMenu: menuFactory attribute: aSymbol levels: levels
 		item := menu 
 			add: ('{1}%' format: {(level / steps * 100) rounded}) 
 			action: [self perform: setter with: level / steps].
-		item isRadialMenuItemMorph ifTrue: [
-			item baseColor: (self perform: getter with: level / steps)]].
+		self colorizeMenuItem: item color: (self perform: getter with: level / steps)].
 	
 	^ menu
