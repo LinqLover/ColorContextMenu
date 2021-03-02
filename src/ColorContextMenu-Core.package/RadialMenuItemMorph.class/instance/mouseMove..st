@@ -8,7 +8,7 @@ mouseMove: anEvent
 			ifFalse: [^ self].
 	
 	self siblingButtons
-		detect: [:m | m isLocked not and: [m enabled] and: [m visible
+		detect: [:m | m isLocked not and: [m isEnabled] and: [m visible
 				flag: #refactor "ct: Bundle this into some selector like #isAvailable?"]
 			and: [m containsPoint: anEvent position]]
 		ifFound: [:m |
