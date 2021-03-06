@@ -1,6 +1,6 @@
 # ColorContextMenu – Library and Application Example of a Radial Menu for Squeak
 
-![smalltalkCI](https://github.com/LinqLover/ColorContextMenu/workflows/smalltalkCI/badge.svg)
+[![smalltalkCI](https://github.com/LinqLover/ColorContextMenu/actions/workflows/main.yml/badge.svg)](https://github.com/LinqLover/ColorContextMenu/actions/workflows/main.yml)
 
 A simple color chooser tool for [Squeak/Smalltalk](https://squeak.org/) for the purpose of comparing several kinds of menu types. This solution focuses on radial menus. The repository also includes **a radial menu API** (`RadialMenuMorph`) that is widely compatible to the standard `MenuMorph` interface.
 
