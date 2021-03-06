@@ -7,6 +7,7 @@ popUpAt: aPoint forHand: hand in: world allowKeyboard: allowKeyboard
 		thenDo: [:menu | menu delete].
 	
 	self center: aPoint.
+	self morphicLayerNumber: self class menuLayer.
 	world addMorphFront: self.
 	
 	hand
